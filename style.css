@@ -125,8 +125,11 @@ a {
 }
 
 #password {
-
     width: 225px;
+}
+
+#look {
+    cursor: pointer;
 }
 
 .input-field input:focus {
