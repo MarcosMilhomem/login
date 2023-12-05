@@ -28,3 +28,16 @@ look.addEventListener ('click', () => {
     look.classList.add('fa-eye');
     look.classList.remove('fa-eye-slash');
 });
+
+function lookSlash() {
+    const password = document.querySelector('#password')
+    const modepassword = password.getAttribute('type')
+
+    if (modepassword === 'password') {
+        password.setAttribute('type', 'text')
+    } else {
+        password.setAttribute('type', 'password')
+    }
+
+};
+
