@@ -38,6 +38,7 @@ function lookSlash() {
     } else {
         password.setAttribute('type', 'password')
     }
-
 };
+
+
 
